@@ -477,7 +477,7 @@ to setup
 
   ; write to file
   if write-file? [
-    let file (word "Netlogo_output/files_written_auto/" Aspiration-adaptation "_" Strategy-order "_" b-no "_" b-constant "_" optimism ".txt")
+    let file (word "Netlogo_Output/" Aspiration-adaptation "_" Strategy-order "_" b-no "_" b-constant "_" optimism ".txt")
 
     if is-string? file [
       if file-exists? file [

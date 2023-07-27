@@ -23,7 +23,7 @@ end <- 24 #end of simulation = end of year 23
 options(scipen = 999)
 
 # Data processing
-mydata <- paste0("./Netlogo_Output/files_written_auto/", filename) %>%
+mydata <- paste0("./Netlogo_Output/", filename) %>%
   read.table(sep=";", header=TRUE, fill = TRUE)
 
 dat_long <- mydata %>%
